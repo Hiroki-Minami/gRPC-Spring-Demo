@@ -27,7 +27,7 @@ This project demonstrates the integration of gRPC within a Spring Framework envi
    ```bash
    git clone https://github.com/your-username/your-repository.git
    ```
-2. Install protocol buffter jar into the local maven repository
+2. Install protocol buffer jar into the local maven repository
    ```bash
    cd grpc-lib
    ./mvnw clean install
@@ -38,7 +38,7 @@ This project demonstrates the integration of gRPC within a Spring Framework envi
 4. Run Rest API server
 
     Run the server with your IDE with an environment variable, OPENAI_API_KEY. Set your API key that you made on OPEN AI platform.
-4. Run frontend Next.js server
+5. Run frontend Next.js server
     ```bash
     cd grpc-frontend
     npm install
