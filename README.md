@@ -41,5 +41,6 @@ This project demonstrates the integration of gRPC within a Spring Framework envi
 4. Run frontend Next.js server
     ```bash
     cd grpc-frontend
+    npm install
     npm run dev 
     ```
