@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.hirokiminami.grpc.demo.completion";
+option java_outer_classname = "CompletionProto";
+
+package completion;
+
+service Completion {
+  rpc GetCompletion(Prompt) returns (Response) {}
+}
+
+message Prompt {
+  string query = 1;
+}
+
+message Response {
+  string answer = 1;
+}

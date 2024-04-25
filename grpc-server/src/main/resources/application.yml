@@ -1,0 +1,14 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: grpc-server
+  grpc:
+    server:
+      port: 9090
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4

@@ -1,0 +1,34 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: web
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: "jdbc:mysql://localhost:3306/grpc"
+    username: user
+    password: password
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+rsa:
+  private-key: classpath:cert/private.pem
+  public-key: classpath:cert/public.pem
+grpc:
+  client:
+#    completion-grpc-server:
+    host: "localhost"
+    port: 9090
+#    address: "static:///localhost:9090"
+#    enableKeepAlive: true
+#    keepAliveWithoutCalls: true
+#    negotiationType: "plaintext"
+#logging:
+#  level:
+#    net:
+#      devh:
+#        boot:
+#          grpc:
+#            client: 'DEBUG'
+#    org:
+#      springframework: 'DEBUG'
