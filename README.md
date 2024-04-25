@@ -25,7 +25,7 @@ This project demonstrates the integration of gRPC within a Spring Framework envi
 ### Installation
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Hiroki-Minami/gRPC-Spring-Demo.git
    ```
 2. Install protocol buffer jar into the local maven repository
    ```bash
